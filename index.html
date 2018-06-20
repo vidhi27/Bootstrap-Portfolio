@@ -1,74 +1,101 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Bootstrap-Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:600i|Roboto:500i,900i" rel="stylesheet"> 
+	<meta charset="UTF-8">
+	<title>Bootstrap Portfolio Index</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
 </head>
-<body>
-    <nav class="navbar navbar-default">
-        <div id="border">
-            <div class="container-fluid">
-                <a href="index.html" id="logo">Vidhi Panchal</a>
-            
-                <div class="navlinkbox">
-                    <a href="index.html">About</a> &nbsp; | &nbsp; 
-                    <a href="portfolio.html">Portfolio</a> &nbsp; | &nbsp; 
-                    <a href="mailto:panchalvidhi@ymail.com">Email</a> &nbsp; | &nbsp; 
-                    <a href="contact.html">Contact</a>
-                </div>
-     
-                                
-            </div><!-- /.container-fluid -->
-        </div>
-    </nav>
-            
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8">
-                <div class ="maincontent">
-                    <h1>About Me</h1>
-                      <img src="images/main.jpeg" width=143 height=226 alt="Vidhi" class= "me">
-            
-                      <p>Hello everyone, I am Vidhi Panchal: full stack developer in-training.</p> 
-                      <p>I graduated from Humber College in 2017 with a post graduate certificate in Global Business Management. Since my graduation, I developed an interest in tech industry.</p>
-                      <p>Currently, I am taking Coding BootCamp at University of Toronto as I was particularly interested in learning web so that I can be a part of building strong, reliable and exciting internet.</p>
-                      <p>In my free time, I like to go out for a walk, cook, or binge-watch some shows.</p> 
-                </div>
-            </div>
-                 
-            <div class="col-md-4">
-                 <aside>
-                    <h2>Connect With Me</h2>
-            
-                    <a href="https://github.com/vidhi27" target="_blank">
-						<img src="images/github.png" class="connect">
-					</a>
-                    <a href="https://stackoverflow.com/users/9650226/vidhi" target="_blank">
-						<img src="images/stackoverflow.png" class="connect">
-                    </a>
-                    <a href="https://www.linkedin.com/in/panchalvidhi/" target="_blank">
-                        <img src="images/linkedin.png" class="connect">
-                    </a>
-            
-                 </aside>
-            
-            </div>
-            
-        </div>
-            
-    </div>
-            
-            <!--[ footer ] -->
-    <div id="footer">
+<body class="bodypadding">
+	<nav class="navbar navbar-default">
         <div class="container">
-            <p class="footer-block">&#169; Copyright 2018</p>
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand VidhiPanchal" href="index.html"><p class="VP">Vidhi Panchal</p></a>
         </div>
-    </div>
-            
+
+        <!-- Collect the nav links for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">      
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="index.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+        </div><!-- /.container -->
+    </nav>
+
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-7 AboutMeSection">
+				<h2 class="AboutMeTitle">About Me</h2>
+				<div class="row">
+					<div class="col-md-4">
+						<img src="assets/images/main.jpeg" height="200" alt="Vidhi Panchal" class="AboutMeImage img-responsive">
+					</div>
+					<div class="col-md-8">
+						<div class="AboutMeText">
+							<p>Hi, my name is Vidhi Panchal: full-stack developer in-training. Currently, I am attending Full Stack Web Development Program at University of Toronto  He attended the Full Stack Web Development Program through the University of Central Florida.  His focus is to create sleek and user friendly web applications as well as supply video content to those clients.</p>
+							<p>My goal is to create sleek and user friendly web applications and to write efficient code that will work well in different environment. I am still training to be a developer, but I already have a few works that I'd be happy to share. 
+                               <!-- I look forward to use my development experience to create the application customized for you. -->
+                            </p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-1">
+			</div>
+			<div class="col-md-4 SideBarSection">
+				<h3 class="ConnectTitle">Connect with Me</h3>
+				<div clas="row">
+					<div class="col-xs-4 col-sm-4 col-md-4">
+					<a href="https://github.com/vidhi27" target="_blank"><img src="assets/images/github.png" alt="GitHub" class="img-responsive"></a>
+					</div>
+					<div class="col-xs-4 col-sm-4 col-md-4">
+					<a href="https://www.linkedin.com/in/panchalvidhi/" target="_blank"><img src="assets/images/linkedin.png" alt="LinkedIn" class="img-responsive"></a>
+					</div>
+					<div class="col-xs-4 col-sm-4 col-md-4">
+					<a href="https://stackoverflow.com/users/9650226/vidhi" target="_blank"><img src="assets/images/stackoverflow.png" alt="Stack Overflow" class="img-responsive"></a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<h3>Email: panchalvidhi@ymail.com</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<footer class="page-footer footer navbar-fixed-bottom">
+					<p>© Copyright 2018</p>
+				</footer>
+			</div>
+		</div>
+	</div>
+
+<!-- jQuery CDN -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+ <!-- Bootstrap JavaScript CDN -->
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 </body>
 </html>
